@@ -2,7 +2,6 @@ import os
 import importlib.util
 import sys
 
-# import sub_folder.test2 as test2
 
 CurrDirPath = os.path.dirname(__file__)
 CurrFileName = os.path.join(CurrDirPath, r"sub_folder\test2.py")
